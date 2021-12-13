@@ -1,0 +1,72 @@
+.jumbotron{
+    background-image: url("/assets/banner.jpeg");
+    background-size: cover;
+    background-position: 50% 8%;
+    background-repeat: no-repeat;
+    height:100vh;
+    color:white;
+    margin-bottom:0;
+    position: relative;
+}
+
+.vertical-center {
+    /* margin: 0; */
+    position: relative;
+    top: 50%;
+    /* -ms-transform: translateY(-50%); */
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+/* .heading{font-size: 1.6em;} */
+@media screen and (max-width: 992px) {
+  h1{
+      font-size:7vw;
+  }
+  h4{
+    font-size:5vw;
+}
+}
+@media screen and (min-width: 993px) {
+  h1{
+      font-size:4vw;
+  }
+  h4{
+    font-size:2vw;
+}
+}
+
+.page-title {
+
+      text-align: center;
+      margin: auto;
+      width: 90%;
+      /* height: 100%; */
+      vertical-align: middle;
+      /* padding: 10px; */
+}
+  
+.container-fluid {
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+}
+
+.earth-img {
+	position: fixed;
+	width: 100%;
+	object-fit: cover;
+	opacity: 1;
+}
+
+/* .transit-effect1 {
+	transition: all 1s;
+} */
+
+#mapmove {
+	color: white;
+}
+
+
+
